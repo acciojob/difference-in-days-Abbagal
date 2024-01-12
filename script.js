@@ -1,5 +1,6 @@
 var dateDiffInDays = function (date1, date2) {
-  //   write your code here
+    var time_difference = date2.getTime() - date1.getTime();
+	 var days_difference = time_difference / (1000 * 60 * 60 * 24); 
 };
 
 // Do not change the code below.
